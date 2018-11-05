@@ -95,5 +95,9 @@ else if ( click = 4) {
 
 
 }
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 
 function mousePressed() {if(press == 0) {click = 1}; if(press == 1) {click = 2}; if(press == 2) {click = 3}; if(press ==3) {click = 4}}
